@@ -372,6 +372,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 80vh;
   background-image: url("../img/header.jpeg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #hero .container {
@@ -1803,5 +1806,9 @@ section {
   }
   #footer .credits {
     padding-top: 4px;
+  }
+  
+  .image-removal{
+	  display: none;
   }
 }
